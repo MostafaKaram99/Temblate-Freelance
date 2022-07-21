@@ -1,0 +1,280 @@
+<html>
+
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+
+  $("a").on('click', function(event) {
+
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = hash;
+      });
+    } 
+  });
+});
+</script>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="navbar" id="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="book-online.html">Book Online</a></li>
+        </ul>
+    </div>
+
+    <!-- web folk -->
+    <div class="web">
+        <div class="folk">
+            <h2>Web folk</h2>
+            <p>Web Design Studio</p>
+        </div>
+        <div class="dream">
+            <p>
+                we dream , explore , create and craft <br> progressive digital experience
+            </p>
+            <div class="bollet">
+                <span class="bollet1">.</span><br>
+                <span class="bollet2">.</span><br>
+                <span class="bollet3">.</span>
+            </div>
+        </div>
+
+        <div class="work">
+           <span class="work-span">Work & Client</span> 
+        </div>
+    </div>
+    <!--     font-family: Arial,Helvetica,sans-serif;
+}
+
+ -->
+
+    <!-- Image -->
+    <div class="image">
+        <div class="img">
+            
+            <div class="over">
+                
+               <div class="p">
+                   <h1>Iam an Image title</h1>
+               </div>
+               <div class="icon">
+                <i class="fa fa-heart-o fa-lg"></i>
+               </div>
+            </div>
+        </div>
+        <div class="img i_1">
+            <div class="over">
+                <div class="p">
+                    <h1>Iam an Image title</h1>
+                </div>
+                <div class="icon">
+                 <i class="fa fa-heart-o fa-lg"></i>
+                </div>
+            </div>
+        </div>
+        <div class="img i_2">
+            <div class="over">
+                <div class="p">
+                    <h1>Iam an Image title</h1>
+                </div>
+                <div class="icon">
+                 <i class="fa fa-heart-o fa-lg"></i>
+                </div>
+            </div>
+        </div>
+        <div class="img i_7">
+            <div class="over">
+                <div class="p">
+                    <h1>Iam an Image title</h1>
+                </div>
+                <div class="icon">
+                 <i class="fa fa-heart-o fa-lg"></i>
+                </div>
+            </div>
+        </div>
+        <div class="img i_4">
+            <div class="over">
+                <div class="p">
+                    <h1>Iam an Image title</h1>
+                </div>
+                <div class="icon">
+                 <i class="fa fa-heart-o fa-lg"></i>
+                </div>
+            </div>
+        </div>
+        <div class="img i_5">
+            <div class="over">
+                <div class="p">
+                    <h1>Iam an Image title</h1>
+                </div>
+                <div class="icon">
+                 <i class="fa fa-heart-o fa-lg"></i>
+                </div>
+            </div>
+        </div>
+        <div class="img i_6">
+            <div class="over">
+                <div class="p">
+                    <h1>Iam an Image title</h1>
+                </div>
+                <div class="icon">
+                 <i class="fa fa-heart-o fa-lg"></i>
+                </div>
+            </div>
+        </div>
+        <div class="img i_3">
+            <div class="over">
+                <div class="p">
+                    <h1>Iam an Image title</h1>
+                </div>
+                <div class="icon">
+                 <i class="fa fa-heart-o fa-lg"></i>
+                </div>
+            </div>
+        </div>
+        <div class="img i_8">
+            <div class="over">
+                <div class="p">
+                    <h1>Iam an Image title</h1>
+                </div>
+                <div class="icon">
+                 <i class="fa fa-heart-o fa-lg"></i>
+                </div>
+            </div>
+        </div>
+        <div class="img i_9">
+            <div class="over">
+                <div class="p">
+                    <h1>Iam an Image title</h1>
+                </div>
+                <div class="icon">
+                 <i class="fa fa-heart-o fa-lg"></i>
+                </div>
+            </div>
+        </div>
+        <div class="img i_10">
+            <div class="over">
+                <div class="p">
+                    <h1>Iam an Image title</h1>
+                </div>
+                <div class="icon">
+                 <i class="fa fa-heart-o fa-lg"></i>
+                </div>
+            </div>
+        </div>
+        <div class="img i_11">
+            <div class="over">
+                <div class="p">
+                    <h1>Iam an Image title</h1>
+                </div>
+                <div class="icon">
+                 <i class="fa fa-heart-o fa-lg"></i>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+    <div class="line">
+        <span>We design great websites and all sorts of interactive products from start to finish</span> 
+    </div>
+
+   <div class="span">
+    <span>Meet The Folks:</span>
+   </div>
+
+   <div class="info-content">
+       <div class="container">
+           <div class="p-info pd-y">
+               <img src="Images/Person_1.jpg" alt="">
+               <h1 class="center pd-y1 h1-up">Andreas</h1>
+               <p class="center p-font">Co Founder & Developer</p>
+            </div>
+            <div class="p-info pd-y">
+                <img src="Images/Person_2.jpg" alt="">
+                <h1 class="center pd-y1 h1-up">Matt</h1>
+                <p class="center p-font">Co Founder & Creative Director</p>
+             </div>
+             <div class="p-info pd-y">
+                <img src="Images/Person_3.jpg" alt="">
+                <h1 class="center pd-y1 h1-up">Dustin</h1>
+                <p class="center p-font">Designer & Front End Developer</p>
+             </div>
+             <div class="p-info pd-y">
+                <img src="Images/Person_4.jpg" alt="">
+                <h1 class="center pd-y1 h1-up">Anna</h1>
+                <p class="center p-font">Designer</p>
+             </div>
+             <div class="clear"></div>
+           
+                 <button class="info-button ">contact us</button>
+          
+       </div>
+      
+   </div>
+    <div class="flex-img flex-column">
+        <div class="flex-info">
+            <div class="flex-one">
+                <h1 class="flex-header">What We Do</h1>
+                <p class="flex-p">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.   
+                  This is a great space to write long text about your company and your services. You can use this space to go into a little more detail about your company. Talk about your team and what services you provide. Tell your visitors the story of how you came up with the idea for your business and what makes you different from your competitors. Make your company stand out and show your visitors who you are.</p>
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="flex-one">
+              <h1 class="flex-header">Who We Are</h1>
+              <p class="flex-p">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.
+                This is a great space to write long text about your company and your services.
+                You can use this space to go into a little more detail about your company. Talk about your team and what services you provide. Tell your visitors the story of how you came up with the idea for your business and what makes you different from your competitors. Make your company stand out and show your visitors who you are.</p>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+             </div>
+        
+        </div> 
+
+        <div class="flex-info-two">
+          <div class="flex-two">
+              <h1 class="flex-header">How We Work</h1>
+              <p class="flex-p">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.
+
+                ​This is a great space to write long text about your company and your services. You can use this space to go into a little more detail about your company. Talk about your team and what services you provide. Tell your visitors the story of how you came up with the idea for your business and what makes you different from your competitors. Make your company stand out and show your visitors who you are.</p>
+
+          </div>
+          <div class="flex-two">
+            <h1 class="flex-header">What We Believe</h1>
+            <p class="flex-p">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.
+
+                ​This is a great space to write long text about your company and your services. You can use this space to go into a little more detail about your company. Talk about your team and what services you provide.
+                
+                 
+                
+                Tell your visitors the story of how you came up with the idea for your business and what makes you different from your competitors. Make your company stand out and show your visitors who you are.</p>
+
+        </div>
+      
+      </div> 
+      <button class="flex-button "> <a href=#nav>Back To Top</a></button>
+    </div>
+      
+
+</body>
+
+</html>

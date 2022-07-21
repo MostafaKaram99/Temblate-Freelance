@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    box-sizing: border-box;
+    background-color: rgb(243, 243, 243);
+}
+
+
+/* Navbar */
+.navbar {
+    width: 100%;
+    height: 50px;
+    background: #360836;
+}
+
+.navbar ul {
+    list-style: none;
+    text-align: center;
+    line-height: 50px
+}
+
+.navbar ul li {
+    display: inline-block;
+}
+.navbar ul li a:hover {
+    color: #fff;
+}
+.navbar ul li a:focus {
+    color: #fff;
+}
+.navbar ul li .active {
+    color: #FF0048;
+}
+
+.navbar ul li a {
+    color: #FF0048;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 20px;
+    font: normal normal normal 15px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif;
+}
+/*form*/
+.contact-img{
+    background-image: url(../Images/coverPage2.PNG);
+    background-size: cover;
+    height: 65%;
+}
+.contact-header{
+
+text-align: center;
+
+    
+}
+.contact-title{
+    padding-top:10px ;
+    font: normal normal normal italic 60px/1.4em georgia,palatino,'book antiqua','palatino linotype',serif;
+    
+}
+.contact-info{
+
+    letter-spacing: 0.1em;
+    display: block;
+    font:normal normal normal 20px/1.4em georgia,palatino,'book antiqua','palatino linotype',serif;
+}
+
+
+
+.first-form{
+    overflow:hidden;
+    text-align:center;
+}
+.first-form input{
+    margin:10px 0 15px;
+    border:1px #FF0048 solid;
+    width:41%;
+    height:35px;
+    
+    color:#000;
+}
+h1 {
+    margin: 0%;
+    
+}
+
+.first-form input.first-input{
+    margin-right:2.5%;
+
+   
+}
+.first-form input , textarea{
+    background-color:#FF0048 ;
+}
+.first-form input::placeholder,.first-form textarea::placeholder
+{
+    color: #fff;
+}
+
+
+
+.first-form input.third-input{
+    width:85%;
+}
+.first-form textarea.fourth-input{
+    width:85%;
+    border:0;
+    border:1px #FF0048 solid;
+    padding:0 0 20px 0;
+    margin-top:15px;
+    font-size:15px;
+    color:#000;
+}
+button.send-massege{
+    border:0;
+    margin-top:25px;
+    height:45px;
+    width:200px;
+    background-color: #fff;
+    color:#000;
+    border-radius: 10;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+button.send-massege:hover{
+    background-color: #FF0048;
+    transition:  background 0.5s;
+}
+.first-form .first-input:hover{
+    opacity: 0.5;
+}
+.first-form .second-input:hover{
+    opacity: 0.5;
+}
+.first-form .third-input:hover{
+    opacity: 0.5;
+}
+.first-form .fourth-input:hover{
+    opacity: 0.5;
+}
+.first-form .first-input:focus{
+
+    border: 1px solid #FF0048;
+    box-shadow: 0 0 7px #000;
+    outline-offset: 0px;
+    outline: none;
+}
+.first-form .second-input:focus{
+
+    border: 1px solid #FF0048;
+    box-shadow: 0 0 7px #000;
+    outline-offset: 0px;
+    outline: none;
+}
+.first-form .third-input:focus{
+
+    border: 1px solid #FF0048;
+    box-shadow: 0 0 7px #000;
+    outline-offset: 0px;
+    outline: none;
+}
+.first-form .fourth-input:focus{
+
+    border: 1px solid #FF0048;
+    box-shadow: 0 0 7px #000;
+    outline-offset: 0px;
+    outline: none;
+}
+.contact-info-two{
+    display: block;
+    margin: 20px 0 20px 0;
+    font-size: 24px;
+    color: #FF0048;
+    font-family: georgia, palatino, 'book antiqua', 'palatino linotype', serif;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+.contact-info-three{
+    display: block;
+    font-size: 24px;
+    color: #FF0048;
+    font-family: georgia, palatino, 'book antiqua', 'palatino linotype', serif;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+.contact-info-four{
+    display: block;
+    font-size: 15px;
+    color: #000;
+    font-family: georgia, palatino, 'book antiqua', 'palatino linotype', serif;
+    letter-spacing: 0.2em;
+    text-align: center;
+}
+.contact-link{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0 ,0.5);
+    font:normal normal normal 16px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+    letter-spacing: 0.2em;
+    margin-bottom: 20px;
+
+}
+
+.contact-link:hover{
+    color: #000;
+}
+.contact-icons{
+    list-style: none;
+    margin-left: 40%;
+
+
+}
+.contact-icons  li{
+    display: inline-block;
+    padding: 5px;
+
+}
+.contact-icons  a{
+text-decoration: none;
+color: rgb(0, 0, 0 ,0.5);
+
+}
+.contact-icons  a:hover{
+    text-decoration: none;
+    color: black;
+    
+    }
+footer{
+    margin-top: 50px;
+}
